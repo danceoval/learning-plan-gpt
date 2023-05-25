@@ -1,0 +1,40 @@
+```Rust Learning Plan for Novice Software Engineering Apprentices```
+
+Week 1:
+
+1. **Introduction to Rust Programming Language**
+- Read the official Rust Programming Language book (https://doc.rust-lang.org/book/)
+- Watch Rust Programming Language tutorials on YouTube (https://www.youtube.com/watch?v=zF34dRivLOw)
+
+2. **Rust Syntax and Basic Concepts**
+- Learn Rust syntax and basic concepts by completing exercises on Rustlings (https://github.com/rust-lang/rustlings)
+- Practice Rust syntax and basic concepts by building simple programs on Rust Playground (https://play.rust-lang.org/)
+
+Week 2:
+
+1. **Rust Data Types and Control Structures**
+- Learn Rust data types and control structures by completing exercises on Rust by Example (https://doc.rust-lang.org/stable/rust-by-example/)
+- Practice Rust data types and control structures by building simple programs on Rust Playground (https://play.rust-lang.org/)
+
+2. **Rust Ownership and Borrowing**
+- Learn Rust ownership and borrowing by reading Rust Programming Language book (https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html)
+- Practice Rust ownership and borrowing by building simple programs on Rust Playground (https://play.rust-lang.org/)
+
+Week 3:
+
+1. **Rust Modules and Packages**
+- Learn Rust modules and packages by reading Rust Programming Language book (https://doc.rust-lang.org/book/ch07-00-managing-growing-projects-with-packages-crates-and-modules.html)
+- Practice Rust modules and packages by building simple programs on Rust Playground (https://play.rust-lang.org/)
+
+2. **Rust Web Development**
+- Learn Rust web development by reading Rust Web Development book (https://www.packtpub.com/product/rust-web-development/9781800205757)
+- Practice Rust web development by building a simple web application using Rust web frameworks like Rocket (https://rocket.rs/) or Actix (https://actix.rs/)
+
+Learning Resources:
+- Rust Programming Language book (https://doc.rust-lang.org/book/)
+- Rust by Example (https://doc.rust-lang.org/stable/rust-by-example/)
+- Rustlings (https://github.com/rust-lang/rustlings)
+- Rust Playground (https://play.rust-lang.org/)
+- Rust Web Development book (https://www.packtpub.com/product/rust-web-development/9781800205757)
+- Rocket web framework (https://rocket.rs/)
+- Actix web framework (https://actix.rs/)

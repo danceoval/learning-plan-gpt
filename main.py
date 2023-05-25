@@ -16,12 +16,18 @@ def get_completion(prompt, model="gpt-3.5-turbo"):
     )
     return response.choices[0].message["content"]
 
+def create_lp(text):
+    lp = open('plan.txt', 'w')
+    lp.write(text)
+    lp = open('./plan.txt', 'r')
+    lp.read()
+
 def main():
-    print("*** RUNNING ***")
-    input_str = input('Enter your topics for the learning plan, separated by commas: ')
+    input_str = input('Enter your topics for the learning plan: ')
+    print("*** GENERATING ***")
     prompt = gen_prompt(input_str)
     response = get_completion(prompt)
-    print(response)
+    create_lp(response)
     print("** DONE **")
 
 
