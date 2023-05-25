@@ -19,8 +19,8 @@ def get_completion(prompt, model="gpt-3.5-turbo"):
 def main():
     print("*** RUNNING ***")
     input_str = input('Enter your topics for the learning plan, separated by commas: ')
-    prompt = image_prompt(input_str)
-    response = get_image(prompt)
+    prompt = gen_prompt(input_str)
+    response = get_completion(prompt)
     print(response)
     print("** DONE **")
 
